@@ -1,7 +1,9 @@
 import sys
 import random
 
-words = ["dog", "cat", "year", "python", "color", "phone", "park", "game", "horse", "beach", "travel", "correct", "battery", "staple"]
+
+with open("wordlist", "r") as f:
+    words = f.read().splitlines()
 
 # print("Password generator")
 
