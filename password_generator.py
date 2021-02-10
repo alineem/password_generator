@@ -12,3 +12,4 @@ length = int(sys.argv[1])
 choices = random.sample(words, length)
 password = ".".join(choices)
 print(password)
+
